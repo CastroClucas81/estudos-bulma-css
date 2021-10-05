@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bulma</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.1/css/bulma.min.css">
+    <!--
+        is-primary : cor igual ao bootstrap
+        is-bold: deixa a cor mais escura
+        hero : usa todo o campo da tela do site (width e height) (margin quase 0)
+        hero-head: cabeçalho da head
+        hero-body: corpo (centraliza e o margin é maior)
+        is-medium : pega metade da tela (height)
+
+        navbar : navbar do bulma
+        navbar-brand : alinhar os campos ao superior esquerdo
+        navbar-item : item da navbar. Cria um efeito hover
+        navbar-menu : cria um menu navbar
+        navbar-end : todos os itens ficam no final (float: right)
+
+        has-text-centered: toda a informação ficará centralizada no meio da pg
+        title: class título do bulma
+        subtitle: class de subtítulo do bulma
+    -->
+</head>
+
+<body>
+    <div>
+        <section class="hero is-primary is-bold">
+            <div class="hero-head">
+                <nav class="navbar">
+                    <div class="container">
+                        <!-- CABEÇALHO -->
+                        <div class="navbar-brand">
+                            <a class="navbar-item">
+                                <img src="https://bulma.io/images/bulma-type-white.png">
+                            </a>
+                        </div>
+
+                        <div class="navbar-menu">
+                            <div class="navbar-end">
+                                <a class="navbar-item">Início </a>
+                                <a class="navbar-item">Avaliações </a>
+                                <a class="navbar-item">Notas </a>
+                            </div>
+                        </div>
+                    </div>
+                </nav>
+
+
+                <!-- APRESENTACAO -->
+                <div class="hero-body">
+                    <div class="container has-text-centered">
+                        <h1 class="title">Bulma</h1>
+                        <h3 class="subtitle">Atividade Avaliativa</h3>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+
+        <!-- TITULO CORPO-->
+        <section class="hero-body">
+            <div class="container">
+                <h1 class="title has-text-centered">Bulma: um Framework css baseado em Flexbox</h1>
+            </div>
+        </section>
+
+        <!-- TEXTO CORPO-->
+        <section class="hero-body">
+            <label class="has-text-justified is-lowercase">é simplesmente uma simulação de texto da indústria tipográfica e de impressos, e vem sendo utilizado
+                desde o século XVI, quando um impressor desconhecido pegou uma bandeja de tipos e os embaralhou para
+                fazer um livro de modelos de tipos. Lorem Ipsum sobreviveu não só a cinco séculos, como também ao salto
+                para a editoração eletrônica, permanecendo essencialmente inalterado. Se popularizou na década de 60,
+                quando a Letraset lançou decalques contendo passagens de Lorem Ipsum, e mais recentemente quando passou
+                a ser integrado a softwares de editoração eletrônica como Aldus PageMaker.
+            </label>
+
+        </section>
+    </div>
+</body>
+
+</html>
